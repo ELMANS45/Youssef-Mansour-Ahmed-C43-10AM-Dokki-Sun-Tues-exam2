@@ -104,7 +104,7 @@ document.addEventListener("click", () => {
       btnClose.addEventListener("click", () => {
         document.getElementById('hide').classList.remove('d-none');
         document.getElementById('de').classList.add('d-none');
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
       });
     }
   });
@@ -138,7 +138,7 @@ $('#category').on('click', function() {
         }
         document.getElementById('rowData2').innerHTML=``        
         document.getElementById('rowData').innerHTML = cartona;
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
         document.getElementById('de').classList.add('d-none');
         $('#hide').removeClass('d-none')
         const kara3Elements = document.querySelectorAll('.kara3');
@@ -181,7 +181,7 @@ $('#category').on('click', function() {
         document.getElementById('rowData2').innerHTML=``        
         document.getElementById('rowData').innerHTML = cartona3;
         $('#hide').removeClass('d-none')
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
         document.getElementById('de').classList.add('d-none');
         $('.loader').fadeOut(2200,function(){
             $('#loading').fadeOut(1000,function(){
@@ -212,7 +212,7 @@ $('#area').on('click', function() {
         }
         document.getElementById('rowData2').innerHTML=``
         document.getElementById('rowData').innerHTML = cartona;
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
         document.getElementById('de').classList.add('d-none');
         $('#hide').removeClass('d-none')
         const kara4Elements = document.querySelectorAll('.kara4');
@@ -255,7 +255,7 @@ $('#area').on('click', function() {
         document.getElementById('rowData2').innerHTML=``        
         document.getElementById('rowData').innerHTML = cartona3;
         $('#hide').removeClass('d-none')
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
         document.getElementById('de').classList.add('d-none');
         $('.loader').fadeOut(2200,function(){
             $('#loading').fadeOut(1000,function(){
@@ -286,7 +286,7 @@ $('#intredients').on('click', function() {
         }
         document.getElementById('rowData2').innerHTML=``        
         document.getElementById('rowData').innerHTML = cartona;
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
         document.getElementById('de').classList.add('d-none');
         $('#hide').removeClass('d-none')
         const kara5Elements = document.querySelectorAll('.kara5');
@@ -329,7 +329,7 @@ $('#intredients').on('click', function() {
         document.getElementById('rowData2').innerHTML=``
         document.getElementById('rowData').innerHTML = cartona3;
         $('#hide').removeClass('d-none')
-        $('.open').css('height','105%');
+        $('.open').css('height','103%');
         document.getElementById('de').classList.add('d-none');
         $('.loader').fadeOut(2200,function(){
             $('#loading').fadeOut(1000,function(){
