@@ -171,7 +171,7 @@ p {
 }
 @media all and (max-height:490px){
     .open{
-        height: 107%;
+        height: 106%;
     }
 }
 @media all and (max-width:1160px) {
