@@ -42,6 +42,7 @@ async function meals() {
             let o = event.target.closest('.meal').id
             $('#hide').addClass("d-none");
             $('.open').css('height', '100%');
+            $('.open').css('padding-bottom', '24px');
             document.getElementById('de').classList.remove('d-none');
             dis(o);
         }
@@ -105,6 +106,7 @@ document.addEventListener("click", () => {
         document.getElementById('hide').classList.remove('d-none');
         document.getElementById('de').classList.add('d-none');
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
       });
     }
   });
@@ -139,6 +141,7 @@ $('#category').on('click', function() {
         document.getElementById('rowData2').innerHTML=``        
         document.getElementById('rowData').innerHTML = cartona;
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
         document.getElementById('de').classList.add('d-none');
         $('#hide').removeClass('d-none')
         const kara3Elements = document.querySelectorAll('.kara3');
@@ -182,6 +185,7 @@ $('#category').on('click', function() {
         document.getElementById('rowData').innerHTML = cartona3;
         $('#hide').removeClass('d-none')
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
         document.getElementById('de').classList.add('d-none');
         $('.loader').fadeOut(2200,function(){
             $('#loading').fadeOut(1000,function(){
@@ -213,6 +217,7 @@ $('#area').on('click', function() {
         document.getElementById('rowData2').innerHTML=``
         document.getElementById('rowData').innerHTML = cartona;
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
         document.getElementById('de').classList.add('d-none');
         $('#hide').removeClass('d-none')
         const kara4Elements = document.querySelectorAll('.kara4');
@@ -256,6 +261,7 @@ $('#area').on('click', function() {
         document.getElementById('rowData').innerHTML = cartona3;
         $('#hide').removeClass('d-none')
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
         document.getElementById('de').classList.add('d-none');
         $('.loader').fadeOut(2200,function(){
             $('#loading').fadeOut(1000,function(){
@@ -287,6 +293,7 @@ $('#intredients').on('click', function() {
         document.getElementById('rowData2').innerHTML=``        
         document.getElementById('rowData').innerHTML = cartona;
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
         document.getElementById('de').classList.add('d-none');
         $('#hide').removeClass('d-none')
         const kara5Elements = document.querySelectorAll('.kara5');
@@ -330,6 +337,7 @@ $('#intredients').on('click', function() {
         document.getElementById('rowData').innerHTML = cartona3;
         $('#hide').removeClass('d-none')
         $('.open').css('height','103%');
+        $('.open').css('padding-bottom', '24px');
         document.getElementById('de').classList.add('d-none');
         $('.loader').fadeOut(2200,function(){
             $('#loading').fadeOut(1000,function(){
@@ -340,6 +348,7 @@ $('#intredients').on('click', function() {
 });
 $('#Search').on('click',function(){
     $('.open').css('height','100%');
+    $('.open').css('padding-bottom', '24px');
     document.getElementById('rowData2').innerHTML=""
     let cartona = `<div class="col-md-6">
                             <input type="text" class="form-control" id="name" placeholder="Search by name">
@@ -393,6 +402,7 @@ $('#Search').on('click',function(){
 })
 $('#contact').on('click', function() {
     $('.open').css('height','100%');
+    $('.open').css('padding-bottom', '24px');
     document.getElementById('rowData2').innerHTML = "";
     let cartona = `
         <div class="col-md-5">
