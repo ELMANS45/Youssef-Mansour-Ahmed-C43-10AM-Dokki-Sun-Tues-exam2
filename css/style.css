@@ -85,6 +85,7 @@ p {
     text-align: center;
     flex-direction: column;
     z-index: 1;
+    padding-bottom: 24px;
 }
 .move{
     position: relative;
