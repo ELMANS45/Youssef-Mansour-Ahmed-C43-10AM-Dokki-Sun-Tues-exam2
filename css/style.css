@@ -77,7 +77,7 @@ p {
 .open{
     position: fixed;
     left: 0;
-    height: 105%;
+    height: 103%;
     width: 4%;
     background-color: white;
     display: flex;
