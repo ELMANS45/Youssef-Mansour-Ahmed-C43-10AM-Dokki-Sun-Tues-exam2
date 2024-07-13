@@ -339,7 +339,7 @@ $('#intredients').on('click', function() {
     }
 });
 $('#Search').on('click',function(){
-    $('.open').css('height','105%');
+    $('.open').css('height','100%');
     document.getElementById('rowData2').innerHTML=""
     let cartona = `<div class="col-md-6">
                             <input type="text" class="form-control" id="name" placeholder="Search by name">
@@ -392,7 +392,7 @@ $('#Search').on('click',function(){
     })
 })
 $('#contact').on('click', function() {
-    $('.open').css('height','105%');
+    $('.open').css('height','100%');
     document.getElementById('rowData2').innerHTML = "";
     let cartona = `
         <div class="col-md-5">
